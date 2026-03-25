@@ -19,14 +19,14 @@ const contactInfo = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'hello@developer.com',
-    href: 'mailto:hello@developer.com',
+    value: 'oliyaqatarsyah@gmail.com',
+    href: 'mailto:oliyaqatarsyah@gmail.com',
   },
   {
     icon: Phone,
     label: 'Telepon',
-    value: '+62 812 3456 7890',
-    href: 'tel:+6281234567890',
+    value: '+62 23 1090 6696',
+    href: 'tel:+622310906696',
   },
   {
     icon: MapPin,
@@ -86,7 +86,7 @@ export default function ContactSection() {
       });
 
       setFormData({ name: '', email: '', subject: '', message: '' });
-    } catch (error: any) {
+    } catch (error: unknown) {
       console.error('Error sending email:', error);
       toast({
         title: 'Gagal Mengirim',
