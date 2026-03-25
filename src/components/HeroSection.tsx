@@ -107,10 +107,8 @@ export default function HeroSection() {
             {/* SOCIAL ICONS */}
             <div className="flex justify-center md:justify-start gap-6">
               {[
-                { icon: Github, href: '#' },
-                { icon: Linkedin, href: '#' },
-                { icon: Youtube, href: '#' },
-                { icon: Instagram, href: '#' },
+                { icon: Github, href: 'https://github.com/auliyaqatarsyah/AuliyaX-2' },
+                { icon: Instagram, href: 'https://www.instagram.com/oildagoat/' },
               ].map((social, i) => (
                 <motion.a
                   key={i}

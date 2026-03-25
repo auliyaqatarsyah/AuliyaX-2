@@ -3,10 +3,8 @@ import { Code2, Video, Coffee, Rocket } from 'lucide-react';
 
 export default function AboutSection() {
   const stats = [
-    { icon: Code2, value: '50+', label: 'Projects Selesai' },
-    { icon: Video, value: '100+', label: 'Video Konten' },
-    { icon: Coffee, value: '1000+', label: 'Cangkir Kopi' },
-    { icon: Rocket, value: '5+', label: 'Tahun Pengalaman' },
+    { icon: Code2, value: '3', label: 'Projects Selesai' },
+    { icon: Video, value: '15', label: 'Video Konten' },
   ];
 
   return (
@@ -40,7 +38,7 @@ export default function AboutSection() {
                 </div>
               </div>
               <div className="absolute -bottom-6 -right-6 p-4 glass rounded-xl shadow-card">
-                <p className="font-display font-bold text-2xl text-gradient">5+ Tahun</p>
+                <p className="font-display font-bold text-2xl text-gradient">1 Tahun</p>
                 <p className="text-sm text-muted-foreground">Pengalaman</p>
               </div>
             </div>
@@ -54,18 +52,20 @@ export default function AboutSection() {
             className="space-y-6"
           >
             <h3 className="font-display text-2xl md:text-3xl font-bold">
-              Passionate Developer &amp; Creator
+              Passionate Developer
             </h3>
             <p className="text-muted-foreground leading-relaxed">
-              Saya adalah seorang Fullstack Web Developer dengan passion yang kuat dalam menciptakan 
-              solusi digital yang inovatif. Dengan pengalaman lebih dari 5 tahun, saya telah 
-              membantu berbagai klien dan perusahaan dalam mewujudkan ide-ide mereka menjadi 
-              aplikasi web yang powerful dan user-friendly.
+              Saya adalah siswa MAN Model yang memiliki minat besar dalam dunia coding, 
+              khususnya dalam pengembangan website. Saat ini saya sedang belajar dan terus 
+              mengembangkan kemampuan saya dalam membuat tampilan dan fitur web yang menarik 
+              serta fungsional. Saya menikmati proses belajar dan selalu mencoba hal-hal baru 
+              untuk meningkatkan skill saya.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Selain coding, saya juga aktif sebagai Content Creator, berbagi pengetahuan 
-              tentang pemrograman dan teknologi melalui berbagai platform. Saya percaya bahwa 
-              berbagi ilmu adalah cara terbaik untuk terus belajar dan berkembang.
+              Meskipun masih dalam tahap pengembangan, saya memiliki motivasi yang kuat 
+              untuk terus berkembang di bidang ini. Saya berharap kemampuan yang saya 
+              pelajari sekarang dapat menjadi bekal di masa depan, dan saya ingin membangun 
+              project yang tidak hanya menarik, tetapi juga bermanfaat bagi banyak orang. 🚀
             </p>
             <div className="grid grid-cols-2 gap-4 pt-4">
               {stats.map((stat, index) => (
